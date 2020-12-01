@@ -35,6 +35,7 @@ body {
     justify-content: flex-end;
     background-color: var(--main-gray);
     padding: 0 30px;
+    z-index: 999;
 }
 
 .navbar ul {
@@ -120,7 +121,7 @@ body {
 }
 
 .project-item:hover {
-    filter: opacity(0.8);
+    transform: scale(1.1);
     translate: 5px;
 }
 
