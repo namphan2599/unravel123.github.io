@@ -33,9 +33,9 @@ body {
     left: 0;
     display: flex;
     justify-content: flex-end;
-    background-color: var(--main-gray);
     padding: 0 30px;
     z-index: 999;
+    transition: 0.3s;
 }
 
 .navbar ul {
@@ -78,9 +78,10 @@ body {
 }
 
 #projects {
-   text-align: center;
+    text-align: center;
     background-color: var(--main-blue);
     padding: 10rem 0;
+    
 }
 
 #projects h1 {
@@ -108,6 +109,9 @@ body {
     color: var(--main-white);
     margin-bottom: 30px;
     transition: 0.3s;
+    -webkit-box-shadow: 5px 10px 21px 0px rgba(0,0,0,0.2);
+    -moz-box-shadow: 5px 10px 21px 0px rgba(0,0,0,0.2);
+    box-shadow: 5px 10px 21px 0px rgba(0,0,0,0.2);
 }
 
 .project-item p {
@@ -121,7 +125,7 @@ body {
 }
 
 .project-item:hover {
-    transform: scale(1.1);
+    transform: scale(1.01);
     translate: 5px;
 }
 
